@@ -24,3 +24,4 @@ if (isPalindrome) {
   console.log(str + ' is not palindrome');
 }
 5. Reverse a linkedlist
+6. https://www.mathsisfun.com/puzzles/weighing-10-bags-solution.html.  -- puzzle
