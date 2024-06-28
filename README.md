@@ -30,3 +30,5 @@ if (isPalindrome) {
 9. what is event loop.
 10. what is a closure and what is the need of closure.
 11. use of setinterval and settimeout with example.
+12. What are IIFE
+13. What are generator functions
