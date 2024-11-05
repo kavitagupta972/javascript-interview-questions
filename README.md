@@ -32,3 +32,5 @@ if (isPalindrome) {
 11. use of setinterval and settimeout with example.
 12. What are IIFE
 13. What are generator functions
+14. https://codeinterview.io/blog/javascript-coding-interview-questions/
+15. https://www.fullstack.cafe/blog/javascript-code-interview-questions
