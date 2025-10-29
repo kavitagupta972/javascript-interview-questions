@@ -1,0 +1,37 @@
+// // var arr = ['1', '2' ,'3'];
+// // console.log(arr);
+// // var newArr = {...arr};
+// // console.log( newArr);
+//difference between spread and rest operator
+// var user = {
+//   name : "ABC",
+//   id : "1"
+// }
+// var {name, id, address } = {...user};
+
+// const data = address ?? name; //what is this operator and output of it 
+// // console.log(user?.address);
+//find transactions with max amount like alice and charlier
+const transactions = [
+  { customer: "Alice", amount: 200, timestamp: 169229111 },
+  { customer: "Bob", amount: 50, timestamp: 169229112 },
+  { customer: "Alice", amount: 100, timestamp: 169229113 },
+  { customer: "Charlie", amount: 300, timestamp: 169229114 },
+  { customer: "Bob", amount: 150, timestamp: 169229115 },
+];
+
+var transactionMap = new Map();
+transactionMap.set('1', '2');
+transactions.map( (transaction) => {
+    if(transactionMap.has(transaction.customer)) {
+      transactionMap.set(transaction.customer,  transactionMap.get(transaction.customer)+ transaction.amount);
+      
+    } else {
+      transactionMap.set(transaction.customer, transaction.amount);
+    }
+  
+})
+
+console.log(transactionMap);
+
+
